@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"></link>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+  <body>
+
+    <!-- <header class="masthead" style="background: url(img/72.jpg) center / cover; height: 100vh; background-position: top left; max-height:800px;">
+      <div class="intro-body">
+          <div class="container">
+              <div class="row flex justify-content-end">
+                  <div class="col-sm-12 col-md-12 col-lg-6">
+                    <h1 class="brand-heading" style="margin-top: 50vh; font-family: 'Open Sans', sans-serif;font-size: 6vw;color: rgb(0, 0, 0); ">Personal stylist</h1>
+                      <p class="intro-text" style="color: var(--bs-emphasis-color);font-size: 3vw;
+                      font-family: 'Open Sans', sans-serif;background: rgba(255, 255, 255, 0);">Tetiana Dudash</p>
+                      <a class="btn btn-primary border rounded-pill border-primary" role="button" style="font-family: Montserrat, sans-serif;
+                      font-size: 14px;height: 50px;margin: 0px;padding-right: 20px;padding-left: 20px;padding-top: 13px;" href="#contact" data-bs-target="#contact">Contact me <span aria-hidden="true">→</span></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </header> -->
+    
+    <!-- HERO -->
+    <div class="bg-white">
+      <header class="absolute inset-x-0 top-0 z-50">
+        <nav class="flex items-center justify-end p-6 lg:px-8" aria-label="Global">
+          <div class=" flex flex-1 -m-1.5 p-1.5 justify-end">
+            <a href="#" class="text-sm font-semibold leading-6 text-stone-900">EN <span aria-hidden="true">&rarr;</span></a>
+          </div>
+        </nav>
+      </header>
+  
+      <div class="flex justify-start items-end md:justify-end h-screen max-h-[50rem] bg-cover bg-no-repeat bg-fixed bg-left-top" style="background-image: url(img/72.jpg)"> <!-- bg-fixed -->
+        <div class="mb-20 md:my-auto pb-10 pl-8 pr-32 xl:pl-0 xl:pr-72">
+          <div class="text-center">
+            <h1 class="text-4xl font-serif tracking-tight text-stone-900 md:text-6xl ">Personal stylist</h1>
+            <p class="mt-6 text-lg leading-8 text-stone-900">Tetiana Dudash</p>
+            <a href="#contact" class="text-sm font-semibold leading-6 text-stone-900">Contact me <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- /HERO -->
+
+    <!-- servies -->
+    <section  class="mx-auto p-10  max-w-4xl">
+      <div class="flex justify-center p-10">
+        <h2 class="text-4xl font-serif text-center">Services</h2>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-4 justify-items-center pb-10">
+        <a href="#rozb"><div class="flex justify-center items-center h-10 border rounded-lg shadow-md w-80 hover:bg-stone-400 hover:text-white transition duration-700 ease-in-out hover:scale-110">Розбір гардеробу</div></a>
+        <a href="#zbir"><div class="flex justify-center items-center h-10 border rounded-lg shadow-md w-80 hover:bg-stone-400 hover:text-white transition duration-700 ease-in-out hover:scale-110">Збираємо валізу</div></a>
+        <a href="#rozb"><div class="flex justify-center items-center h-10 border rounded-lg shadow-md w-80 hover:bg-stone-400 hover:text-white transition duration-700 ease-in-out hover:scale-110">Розбір гардеробу + ​шопінг супровід</div></a>
+        <a href="#kapsul"><div class="flex justify-center items-center h-10 border rounded-lg shadow-md w-80 hover:bg-stone-400 hover:text-white transition duration-700 ease-in-out hover:scale-110">Створення капсули ​new view</div></a>
+        <a href="#kapsulo"><div class="flex justify-center items-center h-10 border rounded-lg shadow-md w-80 hover:bg-stone-400 hover:text-white transition duration-700 ease-in-out hover:scale-110">Створення капсули ​old+new</div></a>
+        <a href="#kapsul"><div class="flex justify-center items-center h-10 border rounded-lg shadow-md w-80 hover:bg-stone-400 hover:text-white transition duration-700 ease-in-out hover:scale-110 ">Капсула(оба формата) ​+ шопінг супровід</div></a>
+      </div>
+    </section>
+    <!-- /servies -->
+
+    <!-- LINE BG --><section class="w-100 py-10 h-32 bg-cover bg-no-repeat bg-fixed" style="background-image: url(img/9.jpg)"></section><!-- bg-fixed -->
+
+    <!-- razbir -->
+    <section id="rozb" class="mx-auto p-10 max-w-5xl">
+      <div class="flex flex-col justify-center pt-10">
+        <h2 class="text-4xl font-serif text-center">Розбір гардеробу</h2>
+        <p class="text-lg font-sans text-center text-stone-400">online, offline, online&offline</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2  justify-items-center md:pl-7 ">
+        <div class="m-auto py-10 md:pl-10">
+          <div class="">
+            <h4 class="text-xl font-serif">1. Анкетування</h4>
+            <p class="text-sm text-stone-400 -mt-2 ml-5 mb-3">для чіткого розуміння запиту</p>
+          </div>
+          <div>
+            <h4 class="text-xl font-serif">2. Консультація</h4>
+            <p class="text-sm text-stone-400 -mt-2 ml-5 mb-3">для визначення напрямку роботи</p>
+          </div>
+          <div>
+            <h4 class="text-xl font-serif">3. Характеристичний тест та мудборд</h4>
+            <p class="text-sm text-stone-400 -mt-2 ml-5 mb-3">для ​визначення персонального стилю</p>
+          </div>
+          <div>
+            <h4 class="text-xl font-serif">3.1. Фото речей <span class="p-0.5 text-xs text-white border rounded-lg bg-sky-500">only online</span></h4>
+            <p class="text-sm text-stone-400 -mt-2 ml-5 mb-3">Вам потрібно ​зробити та відправити мені фото ​окремо кожної позиції у вашому ​гардеробі + взуття та аксесуари</p>
+          </div>
+          <div>
+            <h4 class="text-xl font-serif">4. Розбір</h4>
+            <p class="text-sm text-stone-400 -mt-2 ml-5 mb-3">всі речі у вас є в гардеробі</p>
+          </div>
+          <div>
+            <h4 class="text-xl font-serif">5. Шопінг лист</h4>
+            <p class="text-sm text-stone-400 -mt-2 ml-5 mb-3">Складання образів та паралельно шопінглисту</p>
+          </div>
+          <div>
+            <h4 class="text-xl font-serif">6. Інтеграція позицій із шопінг листу</h4>
+            <p class="text-sm text-stone-400 -mt-2 ml-5 mb-3">Складання образів та паралельно шопінглисту</p>
+          </div>
+          <div>
+            <h4 class="text-xl font-serif">7. Великий файл із образами <span class="p-0.5 text-xs text-white border rounded-lg bg-sky-500">only online</span></h4>
+            <p class="text-sm text-stone-400 -mt-2 ml-5 mb-3">у ​вигляді презентації з додаванням ​речей із шопінглисту</p>
+          </div>
+          <div>
+            <h4 class="text-xl font-serif ">8. Завершальна консультація</h4>
+          </div>
+          
+        </div>
+        <div class="m-auto">
+          <img class="img-fluid w-80" src="img/1.jpg">
+        </div>
+      </div>
+
+      
+      
+    
+
+        <div class="grid grid-cols-1 md:grid-cols-2  justify-items-center md:pl-7 ">
+          <div class="m-auto collapse md:!visible md:!flex ">
+            <!-- <div class="absolute -top-6 left-7 w-10/12 bg-stone-400 h-[33rem] z-0"></div> -->
+            <img class="img-fluid  w-80 z-50" src="img/8.jpg">
+          </div> 
+  
+          <div class="m-auto py-20">
+            
+              <h2 class="text-xl font-serif text-stone-400 pb-4">Для чого потрібно online and offline формат? <span aria-hidden="true">&rarr;</span></h2>
+            
+            <div class="">
+              <p class="text-md pb-4">Інколи функціональність гардеробу є досить низькою, тому на ​offline розборі 
+                ми зможемо створити не багато образів, адже ​формуємо їх виключно із речей, які вже є в існуючому ​гардеробі.
+                (Звичайно ми їх ретельно передивилися та вирішили, що вони ​зможуть залишитися із вами)</p>
+              <p class="text-md pb-4">Тому для повноцінного результату я пропоную суміжну ​послугу. 
+                  Її зміст в тому, що ми ствоюємо разом аутфіти із ​ваших речей у вас вдома, а образи із речима із шопінглисту ви ​отримаєте додатково у файлі.</p>
+              <p class="text-md">Так частина послуги online переходить в offline формат</p>
+            </div>
+          </div>
+        </div>
+
+      
+
+      
+
+    </section>
+    <!-- /razbir -->
+
+    <!-- soprovod -->
+    <section id="soprovod" class="w-100 py-10  bg-cover bg-no-repeat" style="background-image: url(img/bg72.jpg)">
+      <div class="p-10 max-w-4xl  mx-auto">
+        <div class="max-w-md">
+          <h3 class="text-4xl font-serif pb-10">+ шопінг-супровід</h3>
+          <p class="pb-7 text-md">Ця послуга створення для облегшення вашого ​шопінгу. Вона є ДОПОВНЕННЯМ до послуг “Розбір гардеробу” ​та “Створення капсули”</p>
+          <p class="pb-7 text-md">Шопінг-супровід триває протягом 3 годин (кожна наступна година ​рахується окремо)</p>
+          <p class="pb-7 text-md">Для економії вашого часу та ефективності нашої співпраці перед ​зустріччю я проводжу прешопінг</p>
+          <p class="pb-10 text-md">Ті одиниці, які не вийшло купити оффлайн, я допоможу замовити ​онлайн</p>
+        </div>
+        <div class=" max-w-xl bottom-0">
+          <p class="text-sm text-stone-700">*придбати послугу “шопінг-супровід” окремо - НЕМОЖЛИВО</p>
+        </div>
+      </div>
+    </section> 
+    <!-- /soprovod -->
+    
+    <!-- kapsul -->
+    <section id="kapsul" class="mx-auto p-10 max-w-5xl">
+      <div class="flex flex-col justify-center pt-10 ">
+        <h2 class="text-4xl font-serif text-center pb-3">Створення капсули</h2>
+        <p class="text-lg font-semibold text-center text-stone-400">Для кого?</p>
+        <p class="text-md font-sans text-center text-stone-400">Не хочеться мати 1000 позицій в гардеробі але ​комбінаторику як на 1000, чи можливо ви мінімаліст?</p>
+        <p class="text-md font-sans text-center text-stone-400">А можливо ви за розумне споживання чи ви просто ​хочете якісно підготуватися до сезону?</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2  justify-items-center md:pl-7 pt-10">
+        <div class="m-auto py-10 md:pl-10">
+          <h2 class="text-xl font-serif text-stone-400 pb-4">New view <span aria-hidden="true">&rarr;</span></h2>
+          <p class="text-md pb-4">Особливість нашої роботи заключається в тому, що ​ми створюємо капсулу із абсолютно нових речей.</p>
+          <p class="text-md pb-4">Наприкінці ви отримаєте як готовий Look Book (файл ​із образами) так і шопінг лист із клекабельними ​посиланнями</p>
+          <p class="text-md pb-4">Звичайно ми виведемо ваше ДНК стилю та попрацюємо ​саме із вашими зовнішніми особливостями.  Утворимо ​повноцінний функціональний гардероб, де із 20 речей ​можливо отримати 100+ образів</p>
+          
+        </div>
+        <div class="m-auto">
+          <img class="img-fluid w-80" src="img/3.jpg">
+        </div>
+      </div>
+
+        <div  id="kapsulo" class="grid grid-cols-1 md:grid-cols-2  justify-items-center md:pl-7 ">
+          <div class="m-auto collapse md:!visible md:!flex ">
+            <!-- <div class="absolute -top-6 left-7 w-10/12 bg-stone-400 h-[33rem] z-0"></div> -->
+            <img class="img-fluid  w-80 z-50" src="img/bg8.jpg">
+          </div> 
+  
+          <div class="m-auto py-20">
+            
+              <h2 class="text-xl font-serif text-stone-400 pb-4">Old + new <span aria-hidden="true">&rarr;</span></h2>
+            
+            <div class="">
+              <p class="text-md pb-4">Особливість цієї послуги в тому, що ми залучаємо старі речі ​для утворення капсули та міксуємо їх із новими</p>
+              <p class="text-md pb-4">Важливо: Це не розбір гардеробу, тому можливо ​додати максимум 10-15 старих речей. АЛЕ кожну ​цю річ я також проаналізую на відповідність до ​вашого стилю та до типу фігури, тому не всі речі ​можуть потрапити до капсули. Мій вибір буде ​повністю вам обгрунтований</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2  justify-items-center md:pl-7 ">
+
+          <div class="m-auto py-10 md:pl-10">
+            <h2 class="text-xl font-serif text-stone-400 pb-2">Steps <span aria-hidden="true">&rarr;</span></h2>
+            <div class="">
+              <h4 class="text-xl font-serif">1. Анкетування</h4>
+              <p class="text-sm text-stone-400 -mt-2 ml-5 mb-3">для чіткого розуміння запиту</p>
+            </div>
+            <div>
+              <h4 class="text-xl font-serif">2. Консультація</h4>
+              <p class="text-sm text-stone-400 -mt-2 ml-5 mb-3">для визначення напрямку роботи</p>
+            </div>
+            <div>
+              <h4 class="text-xl font-serif">3. Характеристичний тест та мудборд</h4>
+              <p class="text-sm text-stone-400 -mt-2 ml-5 mb-3">для ​визначення персонального стилю</p>
+            </div>
+            <div>
+              <h4 class="text-xl font-serif">3.1. Фото речей <span class="p-0.5 text-xs text-white border rounded-lg bg-sky-500">old+new</span></h4>
+              <p class="text-sm text-stone-400 -mt-2 ml-5 mb-3"> які ви б хотіли додати ​до капсули та їх аналіз</p>
+            </div>
+            <div>
+              <h4 class="text-xl font-serif">4. Підбір нових речей</h4>
+              <p class="text-sm text-stone-400 -mt-2 ml-5 mb-3">для ​створення капсули та утворення шопінг листу</p>
+            </div>
+            <div>
+              <h4 class="text-xl font-serif">5. Look Book</h4>
+              <p class="text-sm text-stone-400 -mt-2 ml-5 mb-3">із готовими образами</p>
+            </div>
+            <div>
+              <h4 class="text-xl font-serif ">6. Завершальна консультація</h4>
+            </div>
+            
+          </div>
+          <div class="m-auto">
+            <img class="img-fluid w-80" src="img/6.jpg">
+          </div>
+        </div>
+      
+
+      
+
+    </section>
+    <!-- /kapsul -->
+
+    <!-- zbir -->
+    <section id="zbir" class="w-100  bg-cover bg-no-repeat" style="background-image: url(img/bg93.jpg)">
+
+        <div class="max-w-4xl mx-auto md:py-10">
+          
+
+          <div class="grid grid-cols-1 md:grid-cols-2  justify-items-center ">
+            <div class="m-auto pt-10 md:pb-10 px-10 z-10">
+              <p class="text-lg font-sans text-stone-400 ">online</p>
+              <h3 class="text-4xl font-serif pb-10">Збираємо валізу</h3>
+              <p class="pb-7 text-md">Уявімо ви збираєтеся у поїздку і кожен раз ​набираєте із собою купу речей із надією, що ​будете кожен день розгулювати в різноманітних ​аутфітах, а по поверненню більша кількість речей ​так і не була навіть витягнена із валізи. Саме для таких мандрівників створена ця послуга.</p>
+              <p class="pb-7 text-md">Я вам створю лукбук на 7-12 абсолютно різних ​аутфітів  під вашу поїздку враховуючи специфіку ​ подорожі із використанням мінімум речей</p>
+              <h2 class="text-xl font-serif text-stone-400 pb-2">Steps <span aria-hidden="true">&rarr;</span></h2>
+              <div class="">
+                <h4 class="text-xl font-serif">1. Анкетування</h4>
+                <p class="text-sm text-stone-400 -mt-2 ml-5 mb-3">для уточнення ​усіх деталей поїздки</p>
+              </div>
+              <div>
+                <h4 class="text-xl font-serif mb-3">2. Фото речей</h4>
+              </div>
+              <div>
+                <h4 class="text-xl font-serif">3. Файл із образами (look book)​</h4>
+              </div>
+            </div>
+            <div class="-mt-20 md:mt-0 lg:invisible z-0">
+              <img class="img-fluid w-100" src="img/bg9.jpg">
+            </div>
+          </div>
+
+        </div>
+
+
+
+    </section> 
+    <!-- /zbir -->
+
+    <!-- nakones -->
+    <section class="mx-auto p-10 max-w-5xl">
+      
+        <div class="grid grid-cols-1 md:grid-cols-2  justify-items-center md:pl-7 ">
+          <div class="m-auto collapse md:!visible md:!flex ">
+            <!-- <div class="absolute -top-6 left-7 w-10/12 bg-stone-400 h-[33rem] z-0"></div> -->
+            <img class="img-fluid  w-80 z-50" src="img/5.jpg">
+          </div> 
+          <div class="m-auto py-20">
+            <h2 class="text-xl font-serif text-stone-400 pb-4">Наприкінці кожної послуги ви отримаєте: <span aria-hidden="true">&rarr;</span></h2>
+            <ul class="list-disc">
+              <li class="text-md pb-4">Пропрацьоване ДНК стилю та чітко ​визначений стильовий вектор ​(простими словами: знайдемо ваш ​особистий стиль)</li>
+              <li class="text-md pb-4">Шпаргалку щодо типу фігури та ​зовнішніх особливостей</li>
+              <li class="text-md pb-4">Шпаргалку щодо корекційних методик</li>
+              <li class="text-md pb-4">Презентацію із повноцінними образами ​з аксесуарною групою (Look Book)</li>
+              <li class="text-md">Шопінг-лист із клекабельними ​посиланнями</li>
+            </ul>
+          </div>
+        </div>
+
+    </section>
+    <!-- /nakones -->
+
+    <!-- LINE BG --><section class="w-100 py-10 h-32 bg-cover bg-no-repeat bg-fixed" style="background-image: url(img/9.jpg)"></section> <!-- bg-fixed -->
+    
+    <!-- price -->
+    <section  class="mx-auto p-10  max-w-4xl">
+      <div class="flex justify-center p-10">
+        <h2 class="text-4xl font-serif text-center">Price list</h2>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-4 justify-items-center pb-10">
+        <div class=" p-10 border rounded-lg shadow-md w-100">
+          <h2 class="text-2xl  md:text-3xl font-serif pb-2">Розбір гардеробу</h2>
+          <p class="text-xl text-stone-400 pl-2">250 € - online</p>
+          <p class="text-xl text-stone-400 pl-2">300 € - offline</p>
+          <p class="text-xl text-stone-400 pl-2">330 € - online&offline</p>
+        </div>
+        <div class=" p-10 border rounded-lg shadow-md w-100">
+          <h2 class="text-2xl md:text-3xl font-serif pb-2">Створення капсули</h2>
+          <p class="text-xl text-stone-400 pl-2">150 € - new view</p>
+          <p class="text-xl text-stone-400 pl-2">200 € - old+new</p>
+        </div>
+        <div class=" p-10 border rounded-lg shadow-md w-100">
+          <h2 class="text-2xl md:text-3xl font-serif pb-2">Збираємо валізу</h2>
+          <p class="text-xl text-stone-400 pl-2">130 € - online</p>
+        </div>
+        <div class=" p-10 border rounded-lg shadow-md w-100 bg-">
+          <h2 class="text-2xl md:text-3xl font-serif pb-2">+ шопінг-супровід</h2>
+          <p class="text-xl text-stone-400 pl-2">+ 70 €  до ціни послуги</p>
+        </div>
+      </div>
+    </section>
+    <!-- /price -->
+
+    <!-- contact -->
+    <section id="contact"  class="mx-auto p-10  max-w-4xl">
+      <div class="flex justify-center p-10">
+        <h2 class="text-4xl font-serif text-center">Contact me <span aria-hidden="true">&rarr;</span></h2>
+      </div>
+
+      <div class="flex justify-center pb-40">
+        <div class="p-4">
+          <a href="https://instagram.com/dudash_tetiana?igshid=NzZlODBkYWE4Ng==">
+            <svg xmlns="http://www.w3.org/2000/svg" height="30" width="26" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#a8a29e" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+          </a>
+        </div> 
+        <div class="p-4">
+          <a href="https://www.tiktok.com/@tetianadudash?_t=8hy3uhvR1oA&_r=1">
+            <svg  xmlns="http://www.w3.org/2000/svg" height="25" width="23" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#a8a29e" d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z"/></svg>
+          </a>
+        </div> 
+        <div class="p-4">
+          <a href="https://www.tiktok.com/@tetianadudash?_t=8hy3uhvR1oA&_r=1">
+            <svg xmlns="http://www.w3.org/2000/svg" height="30" width="26" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#a8a29e" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+          </a>
+        </div>
+      </div> 
+      
+    </section>
+    <!-- /contact -->    
+</body>
+</html>
